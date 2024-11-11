@@ -4,7 +4,6 @@ import Button from '@mui/material/Button';
 import { Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-
 const Home = () => {
   return (
     

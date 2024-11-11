@@ -1,10 +1,9 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-import Button from '@mui/material/Button';
-import { Stack } from '@mui/material';
-import { Link } from 'react-router-dom';
-import Footer from './Footer';
 
+import Button from '@mui/material/Button';
+
+import { Stack } from '@mui/material';
 const Home = () => {
   return (
     
@@ -34,7 +33,7 @@ const Home = () => {
       justifyContent="center" 
       style={{ height: '30vh' }} >
       
-      <Link to="/starthere" style={{ textDecoration: 'none' }}></Link>
+      <Link to="/start" style={{ textDecoration: 'none' }}></Link>
       <Button variant="outlined" sx={{ color: 'white', borderColor: 'white' }}>START HERE</Button>
     </Stack>
 
@@ -44,7 +43,7 @@ const Home = () => {
    
 
     </div>
-    <Footer />
+      
     </>
   )
 }
